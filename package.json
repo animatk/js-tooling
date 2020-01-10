@@ -4,6 +4,7 @@
   "description": "node npm project to create a modern javascript environment from scratch using Webpack, Babel, React ...",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
