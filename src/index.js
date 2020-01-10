@@ -1,1 +1,2 @@
-console.log('Hello World!')
+const getGreeting = name => `Hello ${name}!`
+console.log(getGreeting('Alejandro'))
