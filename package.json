@@ -1,0 +1,22 @@
+{
+  "name": "js-tooling",
+  "version": "1.0.0",
+  "description": "node npm project to create a modern javascript environment from scratch using Webpack, Babel, React ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "webpack",
+    "babel",
+    "react"
+  ],
+  "author": "@alejo.js, @animatk",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
