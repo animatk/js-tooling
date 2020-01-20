@@ -313,3 +313,4 @@ module.exports = {
 - [Babel-React HotReload](https://www.npmjs.com/package/react-hot-loader) With this plugin you can make changes on your source and watch it in your browser without reloading (preserve React state)
 - [Webpack Bundle Analyzer](https://webpack.js.org/guides/code-splitting/#bundle-analysis) With `webpack-bundle-analyzer` and other analysis tools you can optimize your production environment.
 - [Webpack externals](https://webpack.js.org/configuration/externals/#root) The externals configuration option provides a way of excluding dependencies from the output bundles. (for example load libraries like React from CDN on production environment using Webpack Merge)
+- [ESlint](https://eslint.org/docs/user-guide/getting-started) Evaluate javascript source and maintain standardised code.
