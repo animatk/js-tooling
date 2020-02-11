@@ -315,4 +315,5 @@ module.exports = {
 - [Webpack externals](https://webpack.js.org/configuration/externals/#root) The externals configuration option provides a way of excluding dependencies from the output bundles. (for example load libraries like React from CDN on production environment using Webpack Merge)
 - [ESlint](https://eslint.org/docs/user-guide/getting-started) Evaluate javascript source and maintain standardised code.
 - [ESlint loader](https://github.com/webpack-contrib/eslint-loader) integrate eslint/webpack to check evaluate files before generate bundle.
+- [ESlint Config Airbnb](https://www.npmjs.com/package/eslint-config-airbnb) popular Javascript Rules to use with ReactJS; Check [ESlint Config Airbnb Base](https://www.npmjs.com/package/eslint-config-airbnb-base) to use without ReactJS
 - [Husky](https://github.com/typicode/husky) Generates GIT hooks to run npm task before commit or push changes to repo.

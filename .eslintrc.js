@@ -5,6 +5,7 @@ module.exports = {
         "node": true
     },
     "extends": [
+        "airbnb",
         "eslint:recommended",
         "plugin:react/recommended"
     ],
@@ -24,8 +25,10 @@ module.exports = {
     ],
     "rules": {
         "semi": ["error", "never"],
-        "quotes": ["error", "single"],
-        "no-trailing-spaces": "error",
-        "indent": ["error", "tab"],
+        // "indent": ["error", "tab"],
+        // avoid someVar = n + x error if it is under parenthesis 
+        "no-return-assign": ["error", "except-parens"],
+        // enable JS files to contain JXS syntax
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     }
 };
