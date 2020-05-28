@@ -272,6 +272,38 @@ As you can see we repeat a lot of command between `dev` and `dev:hot` scripts, a
 }
 ```
 
+## Webpack development server
+
+Optionally you can add a localhost server to test (I mean optionally because in my case I usually use Firebase hosting) but 1 avantage I found on this module is the auto-refresh (It runs in watch mode automatically)
+
+To install
+```
+npm install webpack-dev-server --save-dev 
+```
+Then configure the server `port`, `path`, etc in **webpack.config.js** file
+
+```
+const path = require('path')
+
+module.exports = {
+  ...
+  module: {
+    ...
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    compress: true,
+    port: 5000,
+  },
+}
+```
+Finally add the script in **package.json** to run the task
+```
+"scripts": {
+    ...
+    "start": "webpack-dev-server --open --host 0.0.0.0",
+}
+```
 
 ## CSS loader 
 

@@ -15,7 +15,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1>Hello World!</h1>
+        <h1>Hello Webpack, Babel, ReactJS!</h1>
         <h2>{`Count:  ${count}`}</h2>
         <button type="button" onClick={() => this.setState({ count: count + 1 })}> + </button>
         <button type="button" onClick={() => this.setState({ count: count - 1 })}> - </button>
